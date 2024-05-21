@@ -1,4 +1,6 @@
 :root {
+    --branding-color: #6c63ff;
+    --secondary-color: #f9f7fe;
     --heading-font-family: "Playfair Display", serif;
     --default-font-family: "Poppins", sans-serif;
 }
@@ -21,4 +23,32 @@ h6 {
 .hero-work h1 {
     font-size: 64px;
     line-height: 1.5;
+}
+
+.hero-work h3{
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: var(--default-font-family);
+}
+.hero-work p{
+    font-size: 14px;
+}
+.work-content {
+    padding: 160px 20px;
+}
+
+
+
+@media (max-width: 900px) {
+    .hero-work h1 {
+        font-size: 44px;
+        line-height: 56px;
+    }
+
+
+    .work-content {
+        padding: 80px 20px;
+        text-align: center;
+    }
+
 }
